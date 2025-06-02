@@ -23,21 +23,21 @@
           <Emails>
             <Email>
               <Type>Personal</Type>
-              <EmailAddress><xsl:value-of select="email"/></EmailAddress>
+              <EmailAddress><xsl:value-of select="emailpersonal"/></EmailAddress>
             </Email>
           </Emails>
 
           <Phones>
             <Phone>
               <Type>Mobile</Type>
-              <PhoneNumber><xsl:value-of select="mobilephone"/></PhoneNumber>
+              <PhoneNumber><xsl:value-of select="phonemobile"/></PhoneNumber>
             </Phone>
           </Phones>
 
           <Phones>
             <Phone>
               <Type>Home</Type>
-              <PhoneNumber><xsl:value-of select="homephone"/></PhoneNumber>
+              <PhoneNumber><xsl:value-of select="phonehome"/></PhoneNumber>
             </Phone>
           </Phones>
 
