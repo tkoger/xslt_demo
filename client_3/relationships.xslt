@@ -10,9 +10,9 @@
       <!-- Only select rows with a non-empty Relationships -->
       <xsl:for-each select="Row[string-length(normalize-space(relationships)) > 0]">
         <Relationship>
-          <ImportID_Person><xsl:value-of select="importid"/></ImportID_Person>
+          <ImportID_Person><xsl:value-of select="import-id"/></ImportID_Person>
           <ImportID_Related><xsl:value-of select="relationships"/></ImportID_Related>
-          <RelationType><xsl:value-of select="relationshiptype"/></RelationType>
+          <RelationType><xsl:value-of select="relationship-type"/></RelationType>
         </Relationship>
       </xsl:for-each>
     </Relationship>
